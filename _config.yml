@@ -34,7 +34,20 @@ theme: minima
 plugins:
   - jekyll-feed
 
-include: ["_pages"]
+# Permalink — posts at /blog/post-title/
+permalink: /blog/:title/
+
+# Navigation — controls top navbar
+navigation:
+  - title: About
+    url: /about/
+  - title: Blog
+    url: /blog/
+
+# Include
+include:
+  - _pages
+  - _posts
 
 # Exclude from processing.
 # The following items will not be processed, by default.
