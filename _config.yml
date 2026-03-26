@@ -34,15 +34,15 @@ theme: minima
 plugins:
   - jekyll-feed
 
-# Permalink — posts at /blog/post-title/
-permalink: /blog/:title/
+# Permalink — posts at /post/post-title/
+permalink: /post/:title/
 
 # Navigation — controls top navbar
 navigation:
   - title: About
     url: /about/
-  - title: Blog
-    url: /blog/
+  - title: Posts
+    url: /posts/
 
 # Include
 include:
